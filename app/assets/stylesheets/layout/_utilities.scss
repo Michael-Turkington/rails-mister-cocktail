@@ -1,0 +1,75 @@
+// Paddings
+.padded {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+// Backgrounds
+.bg-black {
+  background: #4a4a4a;
+}
+.bg-grey {
+  background: #aeaeae;
+}
+.bg-blue {
+  background: #00a3e1;
+}
+.bg-dark-blue {
+  background: #3b5998;
+}
+body {
+  color:white;
+}
+.cards {
+  padding-bottom: 50px;
+}
+
+.title {
+  margin-top: 30px;
+  img {
+  width: 300px;
+  };
+}
+
+
+.small-container {
+  width: 500px;
+  margin: 10px auto;
+  ul {
+    width: 180px;
+    margin: 15px auto;
+  }
+  li {
+    margin: 10px;
+  }
+  table {
+    margin: 20px auto;
+  }
+  th {
+    padding: 15px;
+  }
+}
+
+.list-group-item {
+  margin: 10px 10px;
+  border-radius: 8px !important;
+}
+
+
+.text-delete:hover {
+  color: #F11423;
+}
+
+.text-delete {
+  color: #E45D4E;
+  font-size: 20px;
+}
+
+.text-add {
+  color: white;
+  font-size: 20px;
+}
+
+.text-add:hover {
+  color: #338CD2;
+}
