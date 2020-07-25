@@ -6,3 +6,12 @@
     </div>
   </div>
 </div>
+
+<div class="container mt-5">
+  <div class="cards mb-5">
+    <% @cocktails.each do |c| %>
+      <%= link_to cocktail_path(c), class: 'cocktail' do %>
+      <% end %>
+    <% end %>
+  </div>
+</div>
